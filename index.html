@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akkala Varshitha | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (Updated CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9fbfd;
+      color: #222;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #0a192f;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #64ffda;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .intro img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #64ffda;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .intro h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #0a192f;
+    }
+
+    .intro p {
+      max-width: 700px;
+      margin: 0 auto;
+      color: #555;
+      font-size: 1rem;
+    }
+
+    .socials {
+      margin-top: 25px;
+    }
+
+    .socials a {
+      font-size: 1.8rem;
+      color: #0a192f;
+      margin: 0 12px;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #64ffda;
+      transform: scale(1.2);
+    }
+
+    .resume-btn {
+      margin-top: 25px;
+      display: inline-block;
+      padding: 12px 28px;
+      background: #64ffda;
+      color: #0a192f;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .resume-btn:hover {
+      background: #0a192f;
+      color: #64ffda;
+    }
+     
+    .about,
+    .skills,
+    .projects,
+    .internships
+    {
+      background: white;
+      margin-top: 50px;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      color: #0a192f;
+      margin-bottom: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: "";
+      width: 80px;
+      height: 3px;
+      background: #64ffda;
+      display: block;
+      margin: 8px auto;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .skill {
+      background: #e8f0fe;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-weight: 500;
+      color: #0a192f;
+      transition: 0.3s;
+    }
+
+    .skill:hover {
+      background: #64ffda;
+      color: #0a192f;
+      transform: scale(1.05);
+    }
+
+    .project-card,
+    .intern-card {
+      background: #f0f3fa;
+      border-left: 4px solid #64ffda;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover,
+    .intern-card:hover {
+      background: #e6f5ff;
+      transform: scale(1.02);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0a192f;
+      color: white;
+      margin-top: 50px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Varshitha's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#internships">Internships</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+
+
+
+    <h2>Hi, I'm <span style="color: #64ffda;">Akkala Varshitha 👋</span></h2>
+    <p>A passionate and hardworking <strong>Full Stack Web Developer</strong> from Hyderabad, India.  
+      I enjoy creating dynamic, user-focused web applications that solve real-world problems.</p>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/akkala-varshitha-656a2a2a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Varshitha123akkala" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I'm currently pursuing my <strong>B.Tech Final Year</strong> in Computer Science at Samskruti College of Engineering and Technology with a CGPA of 8.7.  
+      I love turning ideas into interactive, beautiful web experiences. I'm continuously learning and improving my technical skills, with strong interest in <strong>Full Stack Web Development</strong>. Skilled in React.js, Node.js, Django, and Express.js, with expertise in MySQL, MongoDB, RESTful APIs, and microservices. Collaborative and problem-solving oriented, passionate about optimizing performance and leveraging cloud and DevOps technologies for scalable solutions.</p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React.js</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express.js</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">Python </div>
+      <div class="skill">Java </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-card">
+      <h3>Netflix Clone Website</h3>
+      <p>Developed a responsive Netflix clone featuring multi-language support and user interface similar to the original. Added Telugu and Hindi options for localization.</p>
+    </div>
+    <div class="project-card">
+      <h3>Task Manager App</h3>
+      <p>I developed a full-stack Task Manager web application using MongoDB, Express.js, React.js, and Node.js to efficiently manage tasks. The app includes CRUD functionality and secure user authentication, with a responsive and interactive frontend that ensures smooth performance and usability.</p>
+    </div>
+    <div class="project-card">
+      <h3>Interactive Quiz App</h3>
+      <p>Created an interactive quiz web app using HTML, CSS, and JavaScript. Users can attempt multiple-choice questions with instant score tracking.</p>
+    </div>
+    <div class="project-card">
+      <h3>Food Order Page</h3>
+      <p>Developed a simple and responsive food order web page using Bootstrap, allowing users to select and order items easily.</p>
+    </div>
+  </section>
+
+  <section class="internships" id="internships">
+    <h2 class="section-title">Internships & Certifications</h2>
+    <div class="intern-card">
+      <h3>Prodigy Infotech – Full Stack Development Intern</h3>
+      <p>Completed a 1-month internship, developed CRUD applications and e-commerce platforms. Received a completion certificate and letter of recommendation.</p>
+    </div>
+    <div class="intern-card">
+      <h3>Google Cloud – Generative AI Virtual Internship</h3>
+      <p>Completed a 10-week program focused on AI and cloud integration using Google Cloud technologies.</p>
+    </div>
+    <div class="intern-card">
+      <h3>Python Full Stack Developer Intern – Edu Skills </h3>
+      <p>Handled databases (MySQL, MongoDB) to store and manage data safely Created APIs to make frontend and backend work together smoothly.</p>
+    </div>
+    
+  </section>
+
+  <footer>
+    <p>Akkala Varshitha</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.body.style.opacity = 0;
+      setTimeout(() => {
+        document.body.style.transition = "opacity 1.2s ease-in";
+        document.body.style.opacity = 1;
+      }, 100);
+    });
+  </script>
+</body>
+</html>
